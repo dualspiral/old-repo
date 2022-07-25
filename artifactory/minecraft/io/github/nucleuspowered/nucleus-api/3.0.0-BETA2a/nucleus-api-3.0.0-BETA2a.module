@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.nucleuspowered",
+    "module": "nucleus-api",
+    "version": "3.0.0-BETA2a",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.spongepowered",
+          "module": "spongeapi",
+          "version": {
+            "requires": "8.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nucleus-api-3.0.0-BETA2a.jar",
+          "url": "nucleus-api-3.0.0-BETA2a.jar",
+          "size": 96161,
+          "sha512": "6f812f4da1ecdbb30e669fcd540e2c0dcd7e5ca5657b76d7aa29492c5bc175b61e0c03b107a39633df9f97a45d31be14ad9d04afd6fb3fbcd1d6600780b6d73e",
+          "sha256": "4c8335dfa355cb9b66f38fa76f6fe22cba51fc61a048269abdce28da5dc343bc",
+          "sha1": "c11df9f8e84e10683762d7bde935c3bd632554ec",
+          "md5": "6e5c03e2abf4b52db73f51df4d0e9b2c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.spongepowered",
+          "module": "spongeapi",
+          "version": {
+            "requires": "8.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nucleus-api-3.0.0-BETA2a.jar",
+          "url": "nucleus-api-3.0.0-BETA2a.jar",
+          "size": 96161,
+          "sha512": "6f812f4da1ecdbb30e669fcd540e2c0dcd7e5ca5657b76d7aa29492c5bc175b61e0c03b107a39633df9f97a45d31be14ad9d04afd6fb3fbcd1d6600780b6d73e",
+          "sha256": "4c8335dfa355cb9b66f38fa76f6fe22cba51fc61a048269abdce28da5dc343bc",
+          "sha1": "c11df9f8e84e10683762d7bde935c3bd632554ec",
+          "md5": "6e5c03e2abf4b52db73f51df4d0e9b2c"
+        }
+      ]
+    }
+  ]
+}

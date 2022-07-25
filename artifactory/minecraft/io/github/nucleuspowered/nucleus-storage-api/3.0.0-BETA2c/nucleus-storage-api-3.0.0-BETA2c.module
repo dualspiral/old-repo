@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.nucleuspowered",
+    "module": "nucleus-storage-api",
+    "version": "3.0.0-BETA2c",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.spongepowered",
+          "module": "spongeapi",
+          "version": {
+            "requires": "8.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nucleus-storage-api-3.0.0-BETA2c.jar",
+          "url": "nucleus-storage-api-3.0.0-BETA2c.jar",
+          "size": 9845,
+          "sha512": "791b76c6c3cb3d130d3fe9af64519644d8d9e5052be2397638d63e8daaba4a784ad7c58c1d0ad73be335fcc2a05ecaafb7f4e309c7e4d9c32d6791572ef61e5e",
+          "sha256": "0aea274dcb0671c8ed12096df9dabea1c9640a808ac33747d8e97a5099414c32",
+          "sha1": "159f42b4b9a4f2f8a2cc2b9f5839c44a87a8c240",
+          "md5": "abaff71df3e271278a3e793c5f858bb8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.spongepowered",
+          "module": "spongeapi",
+          "version": {
+            "requires": "8.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nucleus-storage-api-3.0.0-BETA2c.jar",
+          "url": "nucleus-storage-api-3.0.0-BETA2c.jar",
+          "size": 9845,
+          "sha512": "791b76c6c3cb3d130d3fe9af64519644d8d9e5052be2397638d63e8daaba4a784ad7c58c1d0ad73be335fcc2a05ecaafb7f4e309c7e4d9c32d6791572ef61e5e",
+          "sha256": "0aea274dcb0671c8ed12096df9dabea1c9640a808ac33747d8e97a5099414c32",
+          "sha1": "159f42b4b9a4f2f8a2cc2b9f5839c44a87a8c240",
+          "md5": "abaff71df3e271278a3e793c5f858bb8"
+        }
+      ]
+    }
+  ]
+}

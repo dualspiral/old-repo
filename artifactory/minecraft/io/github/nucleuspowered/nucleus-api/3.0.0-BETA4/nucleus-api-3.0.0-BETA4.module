@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.nucleuspowered",
+    "module": "nucleus-api",
+    "version": "3.0.0-BETA4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.spongepowered",
+          "module": "spongeapi",
+          "version": {
+            "requires": "8.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nucleus-api-3.0.0-BETA4.jar",
+          "url": "nucleus-api-3.0.0-BETA4.jar",
+          "size": 96615,
+          "sha512": "83b497ef9f18463d440b7423cda7a2e62717cc853d300b3e2b038353772161b8b46ac231259a181cb45335a9cf8638b69ea7989cca7bcbb7a9a05effee9956f7",
+          "sha256": "1694db9780d247f1e33e4a91b00871b7276d572395049f663273ce006e911a15",
+          "sha1": "25d4ad761fa7b2425ecd587ee424d268dc0cc28a",
+          "md5": "6660926ee88d260e3ed5e975170a4376"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.spongepowered",
+          "module": "spongeapi",
+          "version": {
+            "requires": "8.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nucleus-api-3.0.0-BETA4.jar",
+          "url": "nucleus-api-3.0.0-BETA4.jar",
+          "size": 96615,
+          "sha512": "83b497ef9f18463d440b7423cda7a2e62717cc853d300b3e2b038353772161b8b46ac231259a181cb45335a9cf8638b69ea7989cca7bcbb7a9a05effee9956f7",
+          "sha256": "1694db9780d247f1e33e4a91b00871b7276d572395049f663273ce006e911a15",
+          "sha1": "25d4ad761fa7b2425ecd587ee424d268dc0cc28a",
+          "md5": "6660926ee88d260e3ed5e975170a4376"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "uk.co.drnaylor",
+    "module": "quickstart-moduleloader",
+    "version": "0.12.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.spongepowered",
+          "module": "configurate-core",
+          "version": {
+            "requires": "3.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "quickstart-moduleloader-0.12.1-SNAPSHOT.jar",
+          "url": "quickstart-moduleloader-0.12.1-SNAPSHOT.jar",
+          "size": 70539,
+          "sha512": "5a7e4ef8a8562d3d52d2851e0847f0b76eb8163ebb346a94d834bb5a8fbc0ea882d771e91656bf59f19995760039a25f41016baadb45600c24005fc63ceda5a1",
+          "sha256": "8611b58d0705412701caf000491a3c0334a6ed88243cb7507f91cfdd317af32b",
+          "sha1": "1e7f1cdb335cb96f9ce3c1f1bcbe6ae87ce75243",
+          "md5": "71d17417c4a80c570626951fc75700d6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "org.spongepowered",
+          "module": "configurate-core",
+          "version": {
+            "requires": "3.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "quickstart-moduleloader-0.12.1-SNAPSHOT.jar",
+          "url": "quickstart-moduleloader-0.12.1-SNAPSHOT.jar",
+          "size": 70539,
+          "sha512": "5a7e4ef8a8562d3d52d2851e0847f0b76eb8163ebb346a94d834bb5a8fbc0ea882d771e91656bf59f19995760039a25f41016baadb45600c24005fc63ceda5a1",
+          "sha256": "8611b58d0705412701caf000491a3c0334a6ed88243cb7507f91cfdd317af32b",
+          "sha1": "1e7f1cdb335cb96f9ce3c1f1bcbe6ae87ce75243",
+          "md5": "71d17417c4a80c570626951fc75700d6"
+        }
+      ]
+    }
+  ]
+}

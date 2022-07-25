@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.nucleuspowered",
+    "module": "nucleus-storage-api",
+    "version": "3.0.0-BETA4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.spongepowered",
+          "module": "spongeapi",
+          "version": {
+            "requires": "8.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nucleus-storage-api-3.0.0-BETA4.jar",
+          "url": "nucleus-storage-api-3.0.0-BETA4.jar",
+          "size": 9883,
+          "sha512": "1ba1e223ef449dd2987d29a672ef9ab7288a5eb9c0ed8dd8c8d17889c610fc3d4413b22753561396e95a1ac953835f8268587f29a67e6df57d2c594d169e20a9",
+          "sha256": "ca0619f3211c64879d4812a54447fc5ff651a39766a276f14b96a73faf54a0c0",
+          "sha1": "4cbfdfad84bd1658574c8af3f71d31d85b31d3de",
+          "md5": "c58b619c1c93debc953b74a8d712f2ed"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.spongepowered",
+          "module": "spongeapi",
+          "version": {
+            "requires": "8.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nucleus-storage-api-3.0.0-BETA4.jar",
+          "url": "nucleus-storage-api-3.0.0-BETA4.jar",
+          "size": 9883,
+          "sha512": "1ba1e223ef449dd2987d29a672ef9ab7288a5eb9c0ed8dd8c8d17889c610fc3d4413b22753561396e95a1ac953835f8268587f29a67e6df57d2c594d169e20a9",
+          "sha256": "ca0619f3211c64879d4812a54447fc5ff651a39766a276f14b96a73faf54a0c0",
+          "sha1": "4cbfdfad84bd1658574c8af3f71d31d85b31d3de",
+          "md5": "c58b619c1c93debc953b74a8d712f2ed"
+        }
+      ]
+    }
+  ]
+}
